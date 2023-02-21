@@ -1,4 +1,4 @@
-package com.kemalurekli.cleannews
+package com.kemalurekli.cleannews.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

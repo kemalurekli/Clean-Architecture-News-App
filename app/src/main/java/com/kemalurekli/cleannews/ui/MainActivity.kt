@@ -1,9 +1,9 @@
-package com.kemalurekli.cleannews
+package com.kemalurekli.cleannews.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kemalurekli.cleannews.R
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.HiltAndroidApp
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
