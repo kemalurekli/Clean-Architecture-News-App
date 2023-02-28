@@ -19,4 +19,14 @@
         android:name="com.kemalurekli.cleannews.ui.home.DetailsPageFragment"
         android:label="fragment_details_page"
         tools:layout="@layout/fragment_details_page" />
+    <fragment
+        android:id="@+id/savedNewsFragment"
+        android:name="com.kemalurekli.cleannews.ui.saved.SavedNewsFragment"
+        android:label="fragment_saved_news"
+        tools:layout="@layout/fragment_saved_news" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.kemalurekli.cleannews.ui.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" /><action android:id="@+id/action_global_savedNewsFragment" app:destination="@id/savedNewsFragment"/><action android:id="@+id/action_global_settingsFragment" app:destination="@id/settingsFragment"/><action android:id="@+id/action_global_homePageFragment" app:destination="@id/homePageFragment"/>
 </navigation>

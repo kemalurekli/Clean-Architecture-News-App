@@ -1,4 +1,4 @@
-package com.kemalurekli.cleannews.ui.home
+package com.kemalurekli.cleannews.ui.saved
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,11 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kemalurekli.cleannews.R
-import com.kemalurekli.cleannews.databinding.FragmentDetailsPageBinding
 import com.kemalurekli.cleannews.databinding.FragmentSavedNewsBinding
 
-class DetailsPageFragment : Fragment() {
-    private var _binding: FragmentDetailsPageBinding? = null
+
+class SavedNewsFragment : Fragment() {
+    private var _binding: FragmentSavedNewsBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
@@ -18,7 +18,7 @@ class DetailsPageFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentDetailsPageBinding.inflate(inflater, container, false)
+        _binding = FragmentSavedNewsBinding.inflate(inflater, container, false)
         val view = binding.root
         return view
     }
